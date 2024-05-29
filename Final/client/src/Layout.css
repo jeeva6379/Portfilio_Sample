@@ -1,0 +1,37 @@
+.layout {
+  display: flex;
+  min-height: 100svh;
+  font-size: 0.9rem;
+}
+.layout .main-content {
+  padding: 1rem;
+  flex: 1;
+  background-color: #f5f5f5;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+.table {
+  border-radius: 10px !important;
+}
+
+.table thead th {
+  font-weight: normal;
+  background-color: #000;
+  color: #fff;
+}
+
+.table tbody tr:nth-child(odd) td {
+  background-color: #fff;
+}
+.table tbody tr:nth-child(even) td {
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 768px) {
+  .layout {
+    display: block;
+  }
+}
