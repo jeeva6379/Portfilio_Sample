@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins', sans-serif; /* Fallback to sans-serif */
+}
+
+/* Home login page css code in design  Start*/
+
+.Page {
+  /* margin: 5%; */
+  height: 100svh;
+  display: flex;
+  justify-content: center; align-items: center;
+  background-color: #ffe8e6;
+}
+
+.main {
+  padding: 7rem 2rem;
+  box-shadow: 0 3px 6px #0006;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 98%;
+  max-width: 450px;
+}
+
+.signup .Sub-Topic {
+  padding: 1rem;
+}
+
+.line-input {
+  /* border: none; */
+  
+  /* border-bottom: 2px solid #ccc; */
+  outline: none;
+  padding: 1.2rem;
+  width: 100%;
+  box-sizing: border-box; 
+  margin: auto ;
+  border-radius: 8px;
+}
+
+.line-input::placeholder {
+  color: gray;
+}
+.line-input:focus {
+
+  border-color: #af1140;
+  /* border-bottom-color: #3498db; */
+  /* background: #3498db; */
+
+  transition: transform 0.3s ease;
+
+  box-shadow: none;
+  
+}
+.leave-duration input::placeholder,
+.leave-duration textarea::placeholder {
+  font-size: 0.8rem;
+}
+
+
+/* Remove autofill background */
+
+
+    .line-input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px white inset; 
+      -webkit-text-fill-color: #333; 
+    }
+    /* Firefox */
+    .line-input:-moz-autofill {
+      -moz-box-shadow: 0 0 0 30px white inset; 
+      -moz-text-fill-color: #333; 
+    }
+    /* Edge (legacy) */
+    .line-input:-ms-input-placeholder {
+      background-color: #fff; 
+      color: #333; 
+    }
+
+
+
+
+
+
+/* Home Button Styles */
+.home-btn {
+  margin-top: 2rem;
+  display: block;
+  
+  width: 100%; 
+  margin: auto;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #af1140; 
+  color: white;
+  border: none;
+  border-radius: 50px; 
+  cursor: pointer;
+  text-transform: uppercase;letter-spacing: 2px;
+  transition: background-color 0.3s ease; 
+}
+
+.home-btn:hover {
+  background-color: #0056b3; 
+}
+
+
+/* Home login page css code in design  end*/
+
+
+.form-input{
+  display: table;
+  margin: 1rem;
+  padding: .3rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.form-input[type='submit']{
+  background-color: rebeccapurple;
+  color: #fff;
+  min-width: 200px;
+}

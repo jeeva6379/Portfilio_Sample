@@ -1,0 +1,28 @@
+.feedback-container{
+    position: relative;
+}
+
+.feedback-container .feedback-link {
+  display: table;
+  text-decoration: underline;
+  color: blue
+  ;cursor: pointer;;
+}
+
+.feedback {
+  position: absolute;
+  right: calc(100% + .7rem);
+  bottom: -.7rem;
+
+  width: 300px;
+  z-index: 10;
+  background-color: #fff;
+  padding: .5rem .7rem;
+  box-shadow: 0 2px 3px #0004;
+  border-radius: 10px;
+  display: none;
+}
+
+.feedback:hover, .feedback-link:hover + .feedback{
+    display: block;
+}
